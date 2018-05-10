@@ -1,0 +1,17 @@
+<div> 
+  <input id="inputImage" type="file" accept="image/*" (change)="onChange($event)" multiple />
+<!--  <b *ngIf="showTitle">Original Image List</b> -->
+
+ <!--<div *ngFor="let item of processedImages">
+   <img src="{{item.imageDataUrl}}" height="200" width="400">
+  </div> -->
+ <button (click)="downloadAll(processedImages)">Convert and Download </button>
+<!-- <b *ngIf="showTitle" >Compressed Image List</b>
+ <div *ngFor="let item of processedImages" >
+   <a href="{{item.compressedImage.imageDataUrl}}" download="newname" >Download Link</a> -->
+
+  <!-- <img src="{{item.compressedImage.imageDataUrl}}" height="800" width="1000"> 
+
+ 
+ </div> -->
+</div>
